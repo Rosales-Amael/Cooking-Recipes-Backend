@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::post('/update-avatar', [\App\Http\Controllers\Api\AvatarController::class, 'updateAvatar']);
+Route::delete('/delete-user', [\App\Http\Controllers\Api\UserController::class, 'deleteUser']);
+Route::patch('/edit-user', [\App\Http\Controllers\Api\UserController::class, 'editUser']);
 
 Route::middleware(['auth:sanctum'])->get('/user', function (Request $request) {
     return $request->user();

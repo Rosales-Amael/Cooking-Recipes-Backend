@@ -14,7 +14,7 @@ return [
     */
 
     'reset' => 'Votre mot de passe à bien été réinitialisé.',
-    'sent' => 'Nous vous avons envoyé l\'email permettant de réinitialisé votre mot de passe.',
+    'sent' => 'Lien envoyé à l\'adresse email.',
     'throttled' => 'Attendez avant de réessayer.',
     'token' => 'Le token de réinitialisation de mot de passe est incorrect.',
     'user' => "Aucun utilisateur avec cette adresse Email.",
